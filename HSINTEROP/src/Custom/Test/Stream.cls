@@ -14,7 +14,7 @@ ClassMethod FindNonPrintableChars(pRequestId As %Integer) As %Status
 		Set tStrippedChar = $ZStrip(tChar,"*C")
 		If (tChar '= tStrippedChar)
 		{
-			w !, "Problem at ...'"_tDebugStr_"<--': CHAR("_$ASCII(tChar)_")"
+			w !, "Problem at...'"_tDebugStr_"<--': CHAR("_$ASCII(tChar)_")"
 		}
 	}
 	
