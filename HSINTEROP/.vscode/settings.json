@@ -1,0 +1,7 @@
+{
+    "objectscript.conn": {
+        "server": "poc-ucr",
+        "ns": "HSINTEROP",
+        "active": true
+    }
+}
